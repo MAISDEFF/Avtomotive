@@ -1,0 +1,43 @@
+.container__story {
+  background-color: #130e27;
+}
+
+.story__inner {
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.text__buttom {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px 0 100px;
+}
+
+.text__story {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  max-width: 620px;
+  margin: 0;
+}
+
+.buttom__border {
+  background-color: #c62314;
+  width: 270px;
+  height: 65px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttom__story {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  text-decoration: none;
+}
+

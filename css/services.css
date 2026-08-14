@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Couture;
+  src: url(../fonts/couture-bold.otf);
+}
+
+.container__services {
+  background-color: white;
+}
+
+.services__inner {
+  width: 1200px;
+  height: 484px;
+  margin: 0 auto;
+}
+
+.text__services {
+  display: flex;
+  padding: 45px 0 0 100px;
+  text-transform: uppercase;
+}
+
+.our {
+  margin: 0;
+  font-size: 50px;
+  font-family: "Couture";
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.services {
+  padding-left: 20px;
+  margin: 0;
+  font-size: 50px;
+  font-family: "Couture";
+  color: #130e27;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.cards__services {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 65px 105px 0 100px;
+}
+
+.service {
+  text-align: center;
+}
+
+.fa {
+  font-size: 150px;
+  padding-bottom: 10px;
+}
+
+.text__service {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  max-width: 200px;
+}

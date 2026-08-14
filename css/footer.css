@@ -1,0 +1,41 @@
+.container__footer {
+  background-color: #130e27;
+}
+
+.footer__inner {
+  width: 1200px;
+  height: 190px;
+  margin: 0 auto;
+}
+
+.footer__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px ;
+}
+
+.footer__text__red__and__white {
+  display: flex;
+}
+
+.footer__text__white {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 22px;
+}
+
+.footer__text__red {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: #c62314;
+  line-height: 22px;
+}
+
+.footer__logo {
+  font-size: 60px;
+  font-family: "Quite Chocolatey";
+  color: rgb(198, 35, 20);
+  line-height: 23.6px;
+}

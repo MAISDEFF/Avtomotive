@@ -1,0 +1,106 @@
+@font-face {
+  font-family: QuiteChocolatey;
+  src: url(../fonts/Quite\ Chocolatey.ttf);
+}
+
+@font-face {
+  font-family: Monsterrat;
+  src: url(../fonts/ofont.ru_Montserrat.ttf);
+}
+
+@font-face {
+  font-family: PTSerif;
+  src: url(../fonts/ofont.ru_PT\ Serif.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-image: url(../img/background_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box__inner {
+  width: 1200px;
+  height: 689px;
+  margin: 0 auto;
+}
+
+.logo__and__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding: 60px 105px 165px 105px;
+}
+
+.logo {
+  font-size: 80.32px;
+  font-family: "Quite Chocolatey";
+  color: rgb(255, 255, 255);
+  line-height: 32.38px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li a {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 16px;
+}
+
+.menu li a:hover {
+  background-color: #130e27;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.text__main__menu {
+  padding-left: 105px;
+}
+
+.sell__your {
+  font-size: 90px;
+  font-family: "Montserrat";
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+  line-height: 80px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.car__now {
+  font-size: 90px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 80px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.text__main {
+  font-size: 20px;
+  font-family: "PTSerif";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  max-width: 470px;
+  margin: 45px 0;
+}
+
